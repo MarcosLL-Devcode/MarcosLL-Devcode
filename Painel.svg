@@ -1,6 +1,7 @@
 <svg width="860" height="450" viewBox="0 0 860 450" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Recorte circular da sua foto -->
+    <image href="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/sets/minha-foto.jpg" x="117" y="40" width="156" height="156" clip-path="url(#foto-perfil)" preserveAspectRatio="xMidYMid slice" />
     <clipPath id="sets/minha-foto.jpg">
       <circle cx="195" cy="118" r="78" />
     </clipPath>
