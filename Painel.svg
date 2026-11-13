@@ -1,7 +1,7 @@
 <svg width="860" height="450" viewBox="0 0 860 450" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Recorte circular da sua foto -->
-    <clipPath id="minha-foto.jpg">
+    <clipPath id="sets/minha-foto.jpg">
       <circle cx="195" cy="118" r="78" />
     </clipPath>
   </defs>
