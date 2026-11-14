@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Cartão de perfil (salve o seu SVG como perfil.svg na raiz do repositório) -->
-<img src="./perfil.svg" alt="Perfil de Marcos Lopes Lima" width="860" />
+<img src="Home%20Profile" alt="Perfil de Marcos Lopes Lima" width="860" />
 
 <br/>
 
