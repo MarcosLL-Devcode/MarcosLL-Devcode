@@ -29,7 +29,7 @@
   <!-- ==================== RETÂNGULO SEPARADO DOS BOTÕES (LOGO ABAIXO DO QUADRO) ==================== -->
   <rect x="15" y="315" width="360" height="42" fill="#0d1117" stroke="#00e5ff" stroke-width="1.5" stroke-dasharray="6,4" />
 
-  <!-- Botão GitHub -->
+<!-- Botão GitHub -->
   <g transform="translate(30, 321)">
     <rect width="155" height="30" rx="5" fill="#010409" stroke="#ffffff" stroke-width="1.2" />
     <circle cx="24" cy="15" r="9" fill="#ffffff" />
