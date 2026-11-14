@@ -1,13 +1,14 @@
-<p align="center">
-  <img src="./Home%20Profile.svg" width="100%" alt="Painel Terminal">
-</p>
+<!-- RETÂNGULO SEPARADO PARA OS BOTÕES -->
+  <rect x="35" y="305" width="320" height="42" fill="#0d1117" stroke="#00e5ff" stroke-width="1.2" rx="4" stroke-dasharray="3,3" />
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/SEU-LINK-DO-LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/MarcosLL-Devcode" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-</p>
+  <!-- BOTÃO GITHUB -->
+  <g transform="translate(45, 312)">
+    <rect width="145" height="28" rx="4" fill="#010409" stroke="#00e5ff" stroke-width="1" />
+    <text x="88" y="18" fill="#ffffff" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">GitHub</text>
+  </g>
+
+  <!-- BOTÃO LINKEDIN -->
+  <g transform="translate(200, 312)">
+    <rect width="145" height="28" rx="4" fill="#010409" stroke="#00e5ff" stroke-width="1" />
+    <text x="88" y="18" fill="#ffffff" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">LinkedIn</text>
+  </g>
