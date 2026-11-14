@@ -1,0 +1,133 @@
+<svg width="860" height="450" viewBox="0 0 860 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Recorte circular da sua foto -->
+    <clipPath id="foto-perfil">
+      <circle cx="195" cy="118" r="78" />
+    </clipPath>
+  </defs>
+
+  <!-- Fundo Preto Terminal -->
+  <rect width="860" height="450" fill="#010409" rx="6" />
+
+  <!-- ==================== CAIXA DA ESQUERDA ==================== -->
+  <rect x="15" y="15" width="360" height="335" fill="#0d1117" stroke="#00e5ff" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <!-- FOTO COM CORES REAIS (SEM FILTROS) -->
+  
+
+  <!-- Nome em Ciano estilo Terminal -->
+  <text x="195" y="226" fill="#00e5ff" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="22" font-weight="bold" text-anchor="middle" letter-spacing="1.5">MARCOS LOPES LIMA</text>
+
+  <!-- Subtítulo em Verde -->
+  <text x="195" y="248" fill="#00ff66" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13" font-weight="bold" text-anchor="middle">Full Stack Developer em Formação</text>
+
+  <!-- Frase em Itálico -->
+  <text x="195" y="273" fill="#e6edf3" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-style="italic" text-anchor="middle">"Transformando ideias em</text>
+  <text x="195" y="288" fill="#e6edf3" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-style="italic" text-anchor="middle">soluções através da tecnologia."</text>
+
+  <!-- Linha tracejada divisória -->
+  <line x1="40" y1="300" x2="350" y2="300" stroke="#8b949e" stroke-width="1.5" stroke-dasharray="5,3" />
+
+  <!-- Botão GitHub -->
+  <g transform="translate(62, 310)">
+    <rect width="120" height="30" rx="5" fill="#010409" stroke="#ffffff" stroke-width="1.2" />
+    <circle cx="24" cy="15" r="9" fill="#ffffff" />
+    <path d="M24 8c-3.87 0-7 3.13-7 7 0 3.1 2.01 5.72 4.79 6.65.35.06.48-.15.48-.34v-1.2c-1.95.42-2.36-.94-2.36-.94-.32-.81-.78-1.02-.78-1.02-.64-.43.05-.42.05-.42.7.05 1.07.72 1.07.72.62 1.07 1.64.76 2.04.58.06-.45.24-.76.44-.93-1.56-.18-3.19-.78-3.19-3.46 0-.77.27-1.39.72-1.88-.07-.18-.31-.89.07-1.85 0 0 .59-.19 1.93.72.56-.16 1.16-.23 1.75-.24.59.01 1.19.08 1.75.24 1.34-.91 1.93-.72 1.93-.72.38.96.14 1.67.07 1.85.45.49.72 1.11.72 1.88 0 2.69-1.64 3.28-3.2 3.45.25.22.47.64.47 1.3v1.92c0 .19.13.41.48.34A7.002 7.002 0 0 0 31 15c0-3.87-3.13-7-7-7z" fill="#010409" />
+    <text x="74" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">GitHub</text>
+  </g>
+
+  <!-- Botão LinkedIn -->
+  <g transform="translate(198, 310)">
+    <rect width="128" height="30" rx="5" fill="#0d1117" stroke="#00bfff" stroke-width="1.2" />
+    <rect x="14" y="6" width="18" height="18" rx="3" fill="#0077b5" />
+    <text x="23" y="19" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">in</text>
+    <text x="76" y="20" fill="#58a6ff" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">LinkedIn</text>
+  </g>
+
+  <!-- ==================== CAIXA DA DIREITA ==================== -->
+  <polyline points="390,250 390,15 845,15 845,250" fill="none" stroke="#00e5ff" stroke-width="1.5" stroke-dasharray="6,4" />
+  <polyline points="390,250 390,350 845,350 845,250" fill="none" stroke="#00ff66" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <!-- 1. INFORMAÇÕES DO SISTEMA -->
+  <text x="410" y="38" fill="#00e5ff" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="15" font-weight="bold">INFORMAÇÕES DO SISTEMA</text>
+  <g font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13.5" fill="#e6edf3">
+    <text x="410" y="60">Usuário     : MarcosLL-Devcode</text>
+    <text x="410" y="78">Nome        : Marcos Lopes Lima</text>
+    <text x="410" y="96">Localização : Açailândia - MA, Brasil</text>
+    <text x="410" y="114">Perfil      : Full Stack Developer</text>
+    <text x="410" y="132">Status      : <tspan fill="#00ff66" font-weight="bold">Aprendendo...</tspan></text>
+  </g>
+
+  <!-- 2. TECNOLOGIAS E FERRAMENTAS -->
+  <text x="410" y="164" fill="#ff8800" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="15" font-weight="bold" text-decoration="underline">TECNOLOGIAS E FERRAMENTAS</text>
+  
+  <text x="410" y="191" fill="#e6edf3" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13.5">Linguagens :</text>
+  
+  <!-- Logo HTML5 -->
+  <g transform="translate(522, 174)">
+    <path d="M2 0h18l-1.6 18.4L11 20.5l-7.4-2.1L2 0z" fill="#e34f26" />
+    <path d="M11 1.8v17l6-1.7 1.3-15.3H11z" fill="#ef652a" />
+    <path d="M11 9.5H7.6l-.2-2.4H11V4.8H5l.6 7H11V9.5zm0 6.1l-2.7-.7-.2-2H5.8l.3 3.8 4.9 1.4v-2.5z" fill="#ebebeb" />
+    <path d="M11 9.5v2.3h3.1l-.3 3.1-2.8.7v2.5l4.9-1.4.7-7.2H11zm0-4.7v2.3h5.7l.2-2.3H11z" fill="#ffffff" />
+  </g>
+
+  <!-- Logo CSS3 -->
+  <g transform="translate(556, 174)">
+    <path d="M2 0h18l-1.6 18.4L11 20.5l-7.4-2.1L2 0z" fill="#1572b6" />
+    <path d="M11 1.8v17l6-1.7 1.3-15.3H11z" fill="#33a9dc" />
+    <path d="M11 9.5H7.4l.2 2.3H11V9.5zm0-4.7H5.2l.2 2.3H11V4.8zm0 10.8l-2.7-.7-.2-2H5.8l.3 3.8 4.9 1.4v-2.5z" fill="#ebebeb" />
+    <path d="M11 9.5v2.3h3.1l-.3 3.1-2.8.7v2.5l4.9-1.4.7-7.2H11zm0-4.7v2.3h5.7l.2-2.3H11z" fill="#ffffff" />
+  </g>
+
+  <!-- Logo JavaScript -->
+  <g transform="translate(590, 174)">
+    <rect width="20" height="20" rx="2" fill="#f7df1e" />
+    <path d="M5.6 16.5l1.6-.9c.3.5.6 1 1.3 1 .7 0 1.1-.3 1.1-1.3V9.5h2v5.8c0 2.1-1.2 3.1-3 3.1-1.6 0-2.5-.8-3-1.9zm7.1-.2l1.6-.9c.4.7 1 1.2 1.9 1.2.8 0 1.3-.4 1.3-1 0-.7-.5-.9-1.4-1.3l-.5-.2c-1.4-.6-2.4-1.4-2.4-3 0-1.5 1.1-2.6 2.9-2.6 1.3 0 2.2.4 2.8 1.6l-1.5 1c-.3-.6-.7-.8-1.3-.8-.6 0-1 .4-1 .8 0 .6.4.8 1.2 1.2l.5.2c1.7.7 2.6 1.5 2.6 3.1 0 1.8-1.4 2.8-3.3 2.8-1.8 0-3-.9-3.5-2.1z" fill="#000000" />
+  </g>
+
+  <!-- Logo Python -->
+  <g transform="translate(624, 174)">
+    <path d="M9.9 0C5.4 0 5.7 1.9 5.7 1.9v2h4.3v.6H4S1 4.2 1 8.8c0 4.6 2.6 4.4 2.6 4.4h1.5v-2.1s-.1-2.6 2.5-2.6h4.3s2.4.1 2.4-2.3V2.4S14.7 0 9.9 0zM7.5 1.4c.4 0 .8.3.8.8s-.3.8-.8.8-.8-.3-.8-.8.4-.8.8-.8z" fill="#3776ab" />
+    <path d="M10.1 20c4.5 0 4.2-1.9 4.2-1.9v-2h-4.3v-.6h6s3 .3 3-4.3c0-4.6-2.6-4.4-2.6-4.4h-1.5v2.1s.1 2.6-2.5 2.6H8.1s-2.4-.1-2.4 2.3v3.8S5.3 20 10.1 20zm2.4-1.4c-.4 0-.8-.3-.8-.8s.3-.8.8-.8.8.3.8.8-.4.8-.8.8z" fill="#ffd343" />
+  </g>
+
+  <text x="410" y="218" fill="#e6edf3" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13.5">Ferramentas:</text>
+
+  <!-- Logo Git -->
+  <g transform="translate(522, 201)">
+    <path d="M19.4 9.1L10.9.6c-.5-.5-1.3-.5-1.8 0L7.3 2.4l2.2 2.2c.5-.2 1.1-.1 1.5.3.4.4.5 1 .3 1.5l2.1 2.1c.5-.2 1.1-.1 1.5.3.6.6.6 1.5 0 2.1-.6.6-1.5.6-2.1 0-.4-.4-.5-1.1-.3-1.6l-2-2v5.2c.1.1.3.2.4.3.6.6.6 1.5 0 2.1-.6.6-1.5.6-2.1 0-.6-.6-.6-1.5 0-2.1.1-.1.3-.2.5-.3V7.3c-.2-.1-.4-.2-.5-.3-.4-.4-.5-1.1-.3-1.6L6.4 3.3.6 9.1c-.5.5-.5 1.3 0 1.8l8.5 8.5c.5.5 1.3.5 1.8 0l8.5-8.5c.5-.5.5-1.3 0-1.8z" fill="#f05032" />
+  </g>
+
+  <!-- Logo GitHub -->
+  <g transform="translate(556, 201)">
+    <path d="M10 0C4.48 0 0 4.48 0 10c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.58 9.58 0 0 1 10 4.84c.85 0 1.71.11 2.5.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0 0 20 10c0-5.52-4.48-10-10-10z" fill="#ffffff" />
+  </g>
+
+  <!-- Logo VS Code -->
+  <g transform="translate(590, 201)">
+    <path d="M14.8 0L6.2 7.8 2.3 4.8 0 6v8l2.3 1.2 3.9-3 8.6 7.8L20 17.8V2.2L14.8 0zm0 14.3L9.3 10l5.5-4.3v8.6z" fill="#007acc" />
+  </g>
+
+  <!-- 3. MEUS OBJETIVOS -->
+  <text x="410" y="248" fill="#d269ff" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="15" font-weight="bold" text-decoration="underline">MEUS OBJETIVOS</text>
+  <g font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13.5" fill="#e6edf3">
+    <text x="410" y="270"><tspan fill="#00ff66" font-weight="bold">+</tspan> Dominar HTML e CSS</text>
+    <text x="410" y="288"><tspan fill="#00ff66" font-weight="bold">+</tspan> Aprimorar JavaScript</text>
+    <text x="410" y="306"><tspan fill="#00ff66" font-weight="bold">+</tspan> Aprender desenvolvimento Back-End</text>
+    <text x="410" y="324"><tspan fill="#00ff66" font-weight="bold">+</tspan> Construir aplicações Full Stack</text>
+    <text x="410" y="342"><tspan fill="#00ff66" font-weight="bold">+</tspan> Desenvolver projetos para meu portfólio</text>
+  </g>
+
+  <!-- ==================== RODAPÉ ==================== -->
+  <text x="15" y="378" fill="#00e5ff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">👤 SOBRE MIM</text>
+  <g font-family="Arial, sans-serif" font-size="12" fill="#e6edf3">
+    <text x="15" y="398">Olá! Sou <tspan font-weight="bold">Marcos Lopes Lima</tspan>, estudante de programação e apaixonado</text>
+    <text x="15" y="414">por tecnologia. Estou construindo minha jornada no desenvolvimento</text>
+    <text x="15" y="430"><tspan font-weight="bold">Full Stack</tspan>, aprendendo a criar aplicações web, desenvolver soluções</text>
+    <text x="15" y="446">e transformar ideias em projetos reais.</text>
+  </g>
+
+  <rect x="530" y="368" width="315" height="65" fill="#0d1117" stroke="#00e5ff" stroke-width="1.5" stroke-dasharray="6,4" />
+  <text x="687" y="394" fill="#7ee787" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">CONSTRUINDO MEU FUTURO ATRAVÉS DO CÓDIGO.</text>
+  <text x="687" y="415" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Obrigado pela visita! 🚀</text>
+</svg>
