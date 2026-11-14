@@ -13,7 +13,7 @@
   <rect x="15" y="15" width="360" height="335" fill="#0d1117" stroke="#00e5ff" stroke-width="1.5" stroke-dasharray="6,4" />
 
   <!-- FOTO RECORTADA EM CÍRCULO (Círculo tracejado de trás removido) -->
-  
+  <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." x="117" y="40" width="156" height="156" clip-path="url(#foto-perfil)" preserveAspectRatio="xMidYMid slice" />
 
   <!-- Nome em Ciano estilo Terminal -->
   <text x="195" y="226" fill="#00e5ff" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="22" font-weight="bold" text-anchor="middle" letter-spacing="1.5">MARCOS LOPES LIMA</text>
