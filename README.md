@@ -1,3 +1,7 @@
+  <a href="https://www.linkedin.com/in/marcos-lopes-lima/" target="_blank">
+   <img src="./Home%20Profile.svg" width="100%" alt="Painel Terminal">
+
+
 <svg width="860" height="450" viewBox="0 0 860 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <!-- Recorte circular da sua foto -->
